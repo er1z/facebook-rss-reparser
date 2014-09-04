@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "body-parser": "^1.7.0",
     "cheerio": "^0.17.0",
+    "errorhandler": "^1.2.0",
     "express": "^4.8.7",
+    "jade": "^1.6.0",
     "request": "^2.40.0"
   },
   "options": {

@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title='Facebook rss reparser'   
+    link(href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css' rel='stylesheet' type='text/css')
+    script(src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+  body
+    .container
+      h1 Facebook rss reparser
+      form(action='/' method='post')
+        .form-group
+          label(for='pageUrl')
+            span Insert Facebook page adress with http://
+          input(type='text' name='pageUrl' placeholder='http://facebook.com/YourPageName' class='form-control')
+        input(type='submit' value='reparse Facebook RSS' class='btn btn-default')
