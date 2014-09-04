@@ -6,5 +6,29 @@
   },
   "options": {
     "port": "9091"
-  }
+  },
+  "name": "facebook-rss-reparser",
+  "description": "facebook-rss-reparser =====================",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/er1z/facebook-rss-reparser"
+  },
+  "keywords": [
+    "facebook",
+    "rss",
+    "parser"
+  ],
+  "author": "er1z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/er1z/facebook-rss-reparser/issues"
+  },
+  "homepage": "https://github.com/er1z/facebook-rss-reparser"
 }
